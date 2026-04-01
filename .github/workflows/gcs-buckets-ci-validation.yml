@@ -1,4 +1,4 @@
-name: gcs-buckets-bu-ci-validation
+name: gcs-buckets-ci-validation
 on:
   pull_request:
     types: [opened, synchronize, reopened]
