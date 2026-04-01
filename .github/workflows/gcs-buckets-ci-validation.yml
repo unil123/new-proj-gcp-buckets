@@ -3,7 +3,7 @@ on:
   pull_request:
     types: [opened, synchronize, reopened]
     branches: [ test, stage, main ]
-    paths:
+    paths: 
       - 'terraform/modules/gcs-buckets/**' 
       - 'terraform/gcs-buckets/env/**' 
       - '.github/workflows/gcs-buckets-ci-validation.yaml'
