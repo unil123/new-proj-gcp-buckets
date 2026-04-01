@@ -4,7 +4,7 @@ on:
     types: [opened, synchronize, reopened]
     branches: [ test, stage, main ]
     paths:
-      - 'terraform/modules/gcs-buckets-bu/**'
+      - 'terraform/modules/gcs-buckets-bu/**' 
       - 'terraform/gcs-buckets-bu/envs/**'
       - '.github/workflows/gcs-buckets-bu-ci-validation.yaml'
       - '.github/workflows/gcs-buckets-bu-cd-apply.yaml'
