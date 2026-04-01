@@ -1,6 +1,6 @@
 name: gcs-buckets-ci-validation
 on:
- push:
+  push:
     branches: [ "test" ]
   pull_request:
     types: [opened, synchronize, reopened] 
